@@ -17,7 +17,8 @@ Based on the evaluation results, the Random Forest model was selected due to its
 3. Detailed Results (Random Forest Model and Logistic Regression model)
 Below is the detailed classification report for the selected Random Forest model and Logistic Regression model:
  
-```--- Random Forest ---
+###Random Forest###
+```
               precision    recall  f1-score   support
 
          0.0       1.00      1.00      1.00     59695
@@ -25,9 +26,10 @@ Below is the detailed classification report for the selected Random Forest model
 
     accuracy                           1.00     64593
    macro avg       1.00      1.00      1.00     64593
-weighted avg       1.00      1.00      1.00     64593```
-
-'''--- Logistic Regression ---
+weighted avg       1.00      1.00      1.00     64593
+```
+###Logistic Regression###
+```
               precision    recall  f1-score   support
 
          0.0       0.99      1.00      0.99     59695
@@ -35,4 +37,5 @@ weighted avg       1.00      1.00      1.00     64593```
 
     accuracy                           0.98     64593
    macro avg       0.96      0.91      0.94     64593
-weighted avg       0.98      0.98      0.98     64593'''
+weighted avg       0.98      0.98      0.98     64593
+```
